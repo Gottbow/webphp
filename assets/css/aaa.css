@@ -1,0 +1,191 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #eeeeee;
+    font-size: 14px;
+}
+figure{
+    margin-bottom: 0;
+}
+h1{
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 64px;
+    font-weight: 100;
+    letter-spacing: -3px;/* espacio entre letra y letra */
+    text-transform: lowercase;/* minúsculas */
+}
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+#main-header{
+    background-color: #000000;
+    color: #ffffff;
+}
+#noticias{
+    background-color: #ffffff;
+}
+#eventos{
+    background-color: #dddddd;
+}
+#videos{
+    background-color: #000000;
+    color: #ffffff;  
+}
+#cursos{
+    background-color: #cccccc;
+}
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#empresa{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.carousel.slide h5{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.embed-responsive-21by9::before {
+    padding-top: 30%;
+}
+
+#galeria figure figcaption{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+}
+#galeria figure figcaption h6,
+#galeria figure figcaption i{
+    display: none;
+}
+#galeria figure figcaption i{
+    cursor: pointer;
+}
+
+#fondo-oscuro{
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+    display: flex;
+}
+#fondo-oscuro img{
+    border:solid 5px #888888;
+    border-radius: 10px;
+}
+#fondo-oscuro h5{
+    border: solid 5px #999;
+    padding: 3px;
+    background-color: #333;
+    border-radius: 50px;
+    margin-top: 10px;
+    min-width: 250px;
+    text-align: center;
+}
+#main-footer{
+    background-color: #333333;
+    color: #eeeeee;
+}
+.social-footer{
+    flex-direction: row;
+}
+.social-footer a{
+    color: #eeeeee;
+    margin-left: 5px;
+}
+.social-footer a i{
+    border:solid 1px #eeeeee;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-productos .card{
+    overflow: hidden;
+}
+.enoferta{
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform: rotate(-45deg);
+    top: 10%;
+    left: -30%;
+}
+
+.container{
+    max-width: 1600px;
+}
+
+#tbody-tabla-categorias tr td:last-child{
+    position: relative;
+}
+.controles-edicion{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.icono-editar,
+.icono-eliminar
+{
+    cursor: pointer;
+    padding: 5px;
+}
+.icono-editar:hover,
+.icono-eliminar:hover{
+    background-color: #eeeeee;
+}
+#formulario-editar{
+    display: none;
+}
+#formulario-login{
+    background-color: #fff;
+    padding: 35px 30px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+#menu-item-escritorio{
+    display: none;
+}
+
+@media (max-width:991px){
+    #empresa h2{
+        font-size: 36px;
+    }
+}
+@media (max-width:767px){
+    #empresa article{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
